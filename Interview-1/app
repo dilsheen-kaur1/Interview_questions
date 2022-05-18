@@ -1,0 +1,48 @@
+Agam Agarwal2:24 PM
+console.log(1)
+console.log(2)
+setTimeout(() => console.log(3), 0)
+console.log(4)
+
+Agam Agarwal2:30 PM
+var a= true
+setTimeout(() => {  a= false }, 2000);
+while(a){
+console.log(“print”)
+}  
+var a= true
+setTimeout(() => { a= false}, 2000);
+while(a){
+console.log(“print”)
+}
+Agam Agarwal2:36 PM
+var temp= 'hi';
+function display(){               
+    console.log(temp);
+    var temp = 'bye';
+};
+display();
+Agam Agarwal2:38 PM
+fun(2)(3)
+//5
+Agam Agarwal2:41 PM
+var a = 10;
+function outerFunc(a)
+{
+    function inner()
+  {
+     var b = 20;
+     console.log(a+b);
+   }
+   return inner;
+}
+var func = outerFunc(a);
+a = 30;
+func();
+Agam Agarwal3:02 PM
+1+ "2"
+Agam Agarwal3:06 PM
+"aaabbcca"
+Agam Agarwal3:09 PM
+"a3b2c2a1"
+pue-owis-cxg

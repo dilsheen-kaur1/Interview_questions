@@ -1,0 +1,52 @@
+
+console.log(1)
+console.log(2)
+setTimeout(() => console.log(3), 0)
+console.log(4)
+
+
+var a= true
+setTimeout(() => {  a= false }, 2000);
+while(a){
+console.log(“print”)
+}  
+
+var a= true
+setTimeout(() => { a= false}, 2000);
+while(a){
+console.log(“print”)
+}
+
+
+var temp= 'hi';
+function display(){               
+    console.log(temp);
+    var temp = 'bye';
+};
+display();
+
+
+fun(2)(3)
+//5
+
+
+var a = 10;
+function outerFunc(a)
+{
+    function inner()
+  {
+     var b = 20;
+     console.log(a+b);
+   }
+   return inner;
+}
+var func = outerFunc(a);
+a = 30;
+func();
+
+
+1+ "2"
+
+"aaabbcca"
+
+"a3b2c2a1"
